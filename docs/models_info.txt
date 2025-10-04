@@ -1,0 +1,25 @@
+AI MODELS USED
+==============
+
+TEXT CLASSIFICATION
+-------------------
+Model: distilbert-base-uncased-finetuned-sst-2-english
+Source: Hugging Face Transformers
+Task: text-classification
+Description: DistilBERT model fine-tuned for sentiment analysis
+Usage: Classifies text as POSITIVE or NEGATIVE with confidence scores
+
+IMAGE CLASSIFICATION
+--------------------
+Model: google/vit-base-patch16-224
+Source: Hugging Face Transformers  
+Task: image-classification
+Description: Vision Transformer (ViT) model for general image classification
+Usage: Classifies images into 1000+ ImageNet categories
+
+DEPLOYMENT
+----------
+- Both models are free and available on Hugging Face
+- Run locally via transformers pipeline() interface
+- No API keys or external services required
+- Models downloaded automatically on first use
